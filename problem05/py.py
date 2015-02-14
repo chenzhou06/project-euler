@@ -1,9 +1,5 @@
 from datetime import datetime
 
-# def divisible(n):
-#     for i in range(9, 21):
-#         if n % i != 0: return False
-#     return True
 
 def main():
     start = datetime.now()
