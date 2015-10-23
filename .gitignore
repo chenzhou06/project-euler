@@ -2,3 +2,4 @@
 *.sublime-workspace
 *.exe
 Rprof.out
+*.swp
