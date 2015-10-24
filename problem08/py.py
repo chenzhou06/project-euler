@@ -13,13 +13,10 @@ max = 0
 for i in range(len(s)-12):
     for j in range(i, i+13):
         # print(int(s[j]))
-        print(s[j], end=" ")
         pro *= int(s[j])
         if pro > max: max = pro
         if pro < 0:
-            print(pro)
             sys.exit(1)
-    print("\nPro: {:d}".format(pro))
 end = datetime.now()
 
 print("Result:", max)
