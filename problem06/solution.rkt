@@ -26,3 +26,4 @@
 
 (let ([ls (range 1 101)])
   (abs (- (sum-of-squares ls) (square-of-sum ls))))
+#| 25164150 |#
