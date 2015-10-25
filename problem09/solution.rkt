@@ -12,7 +12,7 @@
 #lang racket
 
 (require unstable/list)
-; cartesian-product is unstable
+; cartesian-product is unstable at that time
 
 (define (pyth=? x)
   (match x [(list a b) (= (+ (sqr a) (sqr b)) (sqr (- 1000 a b)))]))
