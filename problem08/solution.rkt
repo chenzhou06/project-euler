@@ -53,3 +53,4 @@
     (foldl * 1 digits)))
 
 (foldl max 0 (map digits-product (split NUM)))
+#| 23514624000 |#
