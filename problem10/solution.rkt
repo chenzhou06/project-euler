@@ -9,5 +9,5 @@
 
 (define LIMIT 2000001)
 
-(foldl + 0 (filter prime? (range 0 LIMIT)))
+(foldl + 0 (filter prime? (range 0 LIMIT))
 #| 142913828922 |#
